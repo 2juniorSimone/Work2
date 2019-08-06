@@ -4,6 +4,9 @@
 namespace AppBundle\Controller;
 
 
+use Symfony\Component\HttpFoundation\Response;
+
+
 class WorkController
 {
     /**
@@ -12,7 +15,7 @@ class WorkController
      */
     public function showAction()
     {
-        return new \HttpResponse('Test!');
+        return new Response('Test!');
     }
 
 
